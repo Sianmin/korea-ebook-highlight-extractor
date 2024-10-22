@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Annotation to Markdown",
+  "description": "Copies annotations to the clipboard in Markdown format.",
+  "version": "1.0",
+  "permissions": ["clipboardWrite", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+
