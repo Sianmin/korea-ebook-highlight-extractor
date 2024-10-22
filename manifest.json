@@ -4,6 +4,9 @@
   "description": "Copies annotations to the clipboard in Markdown format.",
   "version": "1.0",
   "permissions": ["clipboardWrite", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup.html"
   }
